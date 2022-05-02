@@ -1,12 +1,15 @@
+import logo from "./logo.svg";
 import "./App.css";
+import { MainRoutes } from "./Routes/MainRoutes";
+import { Navbar } from "./components/Navbar";
 
-import Mainroutes from "./Components/Routes/MainRoutes";
 function App() {
   return (
     <div className="App">
-    <Mainroutes/>
+    <Navbar/>
+     <MainRoutes/>
     </div>
   );
 }
-export default App;
 
+export default App;
